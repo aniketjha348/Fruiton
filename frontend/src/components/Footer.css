@@ -1,0 +1,55 @@
+.footer {
+    background-color: var(--text-dark);
+    color: var(--white);
+    padding: 60px 0 20px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.footer-logo h2 {
+    color: var(--accent-orange);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-contact h3,
+.footer-cta h3 {
+    color: var(--accent-green);
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.btn-whatsapp {
+    background-color: #25D366;
+    color: white;
+    margin-top: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-whatsapp:hover {
+    background-color: #128C7E;
+    box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4);
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
